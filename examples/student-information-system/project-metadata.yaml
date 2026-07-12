@@ -1,0 +1,7 @@
+project:
+  name: Student Information System
+  domain: Education
+  type: Web Application
+  methodology: AI-SEOS
+  status: Example
+  version: 1.0

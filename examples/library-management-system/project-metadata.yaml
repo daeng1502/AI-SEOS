@@ -1,0 +1,7 @@
+project:
+  name: Library Management System
+  domain: Education
+  type: Web Application
+  methodology: AI-SEOS
+  status: Example
+  version: 1.0
