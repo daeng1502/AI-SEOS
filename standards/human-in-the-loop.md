@@ -42,7 +42,7 @@ AI Agent **wajib menghentikan pekerjaan** dan berdiskusi dengan manusia apabila 
 
 ---
 
-# [RULE-HITL-005] Prinsip Asumsi Nihil (Strict Ignorance Constraint)
+# [RULE-HITL-001] Prinsip Asumsi Nihil (Strict Ignorance Constraint)
 
 AI Agent terikat oleh kewajiban kepatuhan mutlak terhadap batasan informasi tertulis:
 - **Dilarang Menambah Asumsi**: AI Agent dilarang keras menambahkan langkah aktivitas, aktor, media komunikasi (seperti jenis aplikasi chat), dokumen, atau mekanisme transaksi yang tidak terdokumentasi di dalam `project-knowledge.md`.
@@ -89,4 +89,4 @@ Setiap pertanyaan yang diajukan AI kepada manusia wajib mematuhi aturan berikut:
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Human-in-the-Loop Standard |
-| 1.1 | Penambahan [RULE-HITL-005] Prinsip Asumsi Nihil (Strict Ignorance Constraint) |
+| 1.1 | Penambahan [RULE-HITL-001] Prinsip Asumsi Nihil (Strict Ignorance Constraint) |
