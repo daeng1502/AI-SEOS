@@ -1,0 +1,74 @@
+version: "1.0.0"
+
+engine:
+  name: AI Software Engineering Operating System
+  id: ai-seos
+  status: stable
+
+runtime:
+  mode: knowledge-driven
+  orchestration: external
+  state: stateless
+
+supported_orchestrators:
+  - antigravity
+  - 9router
+
+knowledge:
+  source: KNOWLEDGE.md
+
+context:
+  source: CONTEXT.md
+
+workflow:
+  source: WORKFLOW.md
+
+roles:
+  source: ROLES.md
+
+team:
+  source: TEAM.md
+
+skills:
+  source: SKILLS.md
+
+planner:
+  source: PROJECT_PLANNER.md
+
+protocol:
+  source: ENGINE_PROTOCOL.md
+
+orchestrator:
+  source: ORCHESTRATOR.md
+
+runtime_components:
+  context_builder:
+    enabled: true
+
+  role_engine:
+    enabled: true
+
+  skill_engine:
+    enabled: true
+
+  engine_events:
+    enabled: true
+
+  engine_message:
+    enabled: true
+
+outputs:
+  root: outputs/
+
+configuration:
+  standards: config/standards.yaml
+  templates: config/templates.yaml
+  schemas: config/schemas.yaml
+  workflow: config/workflow.yaml
+  roles: config/roles.yaml
+  skills: config/skills.yaml
+  artifacts: config/artifacts.yaml
+  quality: config/quality.yaml
+
+metadata:
+  repository: config/repository.yaml

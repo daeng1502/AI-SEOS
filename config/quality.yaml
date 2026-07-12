@@ -1,0 +1,40 @@
+version: "1.0.0"
+
+quality:
+
+  standards:
+    source: quality/
+
+  review:
+    required: true
+    source: quality/review-process.md
+
+  validation:
+    required: true
+    source: quality/validation-rules.md
+
+  acceptance:
+    required: true
+    source: quality/acceptance-criteria.md
+
+  definition_of_done:
+    source: quality/definition-of-done.md
+
+  traceability:
+    enabled: true
+    source: quality/traceability.md
+
+  metrics:
+    source: quality/quality-metrics.md
+
+artifact_requirements:
+  review: true
+  validation: true
+  approval: true
+  traceability: true
+  versioning: true
+
+quality_gates:
+  before_generation: false
+  after_generation: true
+  before_release: true

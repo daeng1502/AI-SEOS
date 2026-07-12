@@ -1,0 +1,54 @@
+version: "1.0.0"
+
+artifacts:
+
+  vision:
+    source: outputs/vision/
+
+  requirements:
+    source: outputs/requirements/
+
+  architecture:
+    source: outputs/architecture/
+
+  modeling:
+    source: outputs/modeling/
+
+  database:
+    source: outputs/database/
+
+  ui_ux:
+    source: outputs/ui-ux/
+
+  api:
+    source: outputs/api/
+
+  source_code:
+    source: outputs/source-code/
+
+  testing:
+    source: outputs/testing/
+
+  deployment:
+    source: outputs/deployment/
+
+  documentation:
+    source: outputs/documentation/
+
+generation_order:
+  - vision
+  - requirements
+  - architecture
+  - modeling
+  - database
+  - ui_ux
+  - api
+  - source_code
+  - testing
+  - deployment
+  - documentation
+
+validation:
+  review_required: true
+  traceability_required: true
+  versioning_required: true

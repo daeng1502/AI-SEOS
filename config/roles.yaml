@@ -1,0 +1,67 @@
+version: "1.0.0"
+
+roles:
+
+  business_analyst:
+    source: ROLES.md
+    responsibilities:
+      - requirement-analysis
+      - stakeholder-analysis
+
+  system_analyst:
+    source: ROLES.md
+    responsibilities:
+      - system-analysis
+      - uml-modeling
+
+  software_architect:
+    source: ROLES.md
+    responsibilities:
+      - software-architecture
+
+  database_designer:
+    source: ROLES.md
+    responsibilities:
+      - database-design
+
+  ui_ux_designer:
+    source: ROLES.md
+    responsibilities:
+      - ui-ux-design
+
+  backend_developer:
+    source: ROLES.md
+    responsibilities:
+      - backend-development
+      - api-development
+
+  frontend_developer:
+    source: ROLES.md
+    responsibilities:
+      - frontend-development
+
+  qa_engineer:
+    source: ROLES.md
+    responsibilities:
+      - testing
+      - validation
+
+  technical_writer:
+    source: ROLES.md
+    responsibilities:
+      - documentation
+
+  project_manager:
+    source: ROLES.md
+    responsibilities:
+      - planning
+      - coordination
+      - review
+
+assignment:
+  engine: ROLE_ENGINE.md
+  planner: PROJECT_PLANNER.md
+
+validation:
+  single_primary_role: true
+  multiple_support_roles: true

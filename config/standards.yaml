@@ -1,0 +1,43 @@
+version: "1.0.0"
+
+standards:
+
+  requirement_analysis:
+    file: standards/requirement-analysis.md
+    required: true
+
+  software_architecture:
+    file: standards/software-architecture.md
+    required: true
+
+  uml_modeling:
+    file: standards/uml-modeling.md
+    required: true
+
+  database_design:
+    file: standards/database-design.md
+    required: true
+
+  coding:
+    file: standards/coding-standard.md
+    required: true
+
+  testing:
+    file: standards/testing-standard.md
+    required: true
+
+  review:
+    file: standards/review-standard.md
+    required: true
+
+  documentation:
+    file: standards/documentation-standard.md
+    required: true
+
+loading:
+  strategy: required
+  fail_on_missing: true
+
+validation:
+  enforce_compliance: true
+  review_before_use: true

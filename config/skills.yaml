@@ -1,0 +1,62 @@
+version: "1.0.0"
+
+skills:
+
+  requirement_analysis:
+    source: SKILLS.md
+    category: analysis
+
+  stakeholder_analysis:
+    source: SKILLS.md
+    category: analysis
+
+  business_analysis:
+    source: SKILLS.md
+    category: analysis
+
+  uml_modeling:
+    source: SKILLS.md
+    category: modeling
+
+  software_architecture:
+    source: SKILLS.md
+    category: architecture
+
+  database_design:
+    source: SKILLS.md
+    category: design
+
+  ui_ux_design:
+    source: SKILLS.md
+    category: design
+
+  backend_development:
+    source: SKILLS.md
+    category: development
+
+  frontend_development:
+    source: SKILLS.md
+    category: development
+
+  api_development:
+    source: SKILLS.md
+    category: development
+
+  testing:
+    source: SKILLS.md
+    category: quality
+
+  documentation:
+    source: SKILLS.md
+    category: documentation
+
+  review:
+    source: SKILLS.md
+    category: quality
+
+assignment_engine:
+  source: SKILL_ENGINE.md
+
+validation:
+  minimum_skill_per_task: 1
+  reusable: true

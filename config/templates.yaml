@@ -1,0 +1,50 @@
+version: "1.0.0"
+
+templates:
+
+  project_plan:
+    file: templates/project-plan-template.md
+    required: true
+
+  srs:
+    file: templates/srs-template.md
+    required: true
+
+  bpmn:
+    file: templates/bpmn-template.md
+    required: true
+
+  use_case:
+    file: templates/usecase-template.md
+    required: true
+
+  activity_diagram:
+    file: templates/activity-diagram-template.md
+    required: true
+
+  sequence_diagram:
+    file: templates/sequence-diagram-template.md
+    required: true
+
+  class_diagram:
+    file: templates/class-diagram-template.md
+    required: true
+
+  erd:
+    file: templates/erd-template.md
+    required: true
+
+  api_specification:
+    file: templates/api-specification-template.md
+    required: true
+
+  test_case:
+    file: templates/test-case-template.md
+    required: true
+
+loading:
+  strategy: required
+  fail_on_missing: true
+
+validation:
+  require_template_before_generation: true

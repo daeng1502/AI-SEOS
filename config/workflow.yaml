@@ -1,0 +1,74 @@
+version: "1.0.0"
+
+workflow:
+
+  phases:
+
+    - id: initiation
+      name: Project Initiation
+      playbook: playbooks/project-initiation.md
+
+    - id: requirement_analysis
+      name: Requirement Analysis
+      playbook: playbooks/requirement-analysis.md
+
+    - id: requirement_validation
+      name: Requirement Validation
+      playbook: playbooks/requirement-validation.md
+
+    - id: system_analysis
+      name: System Analysis
+      playbook: playbooks/system-analysis.md
+
+    - id: software_architecture
+      name: Software Architecture
+      playbook: playbooks/software-architecture.md
+
+    - id: database_design
+      name: Database Design
+      playbook: playbooks/database-design.md
+
+    - id: ui_ux_design
+      name: UI/UX Design
+      playbook: playbooks/ui-ux-design.md
+
+    - id: backend_development
+      name: Backend Development
+      playbook: playbooks/backend-development.md
+
+    - id: frontend_development
+      name: Frontend Development
+      playbook: playbooks/frontend-development.md
+
+    - id: api_development
+      name: API Development
+      playbook: playbooks/api-development.md
+
+    - id: testing
+      name: Testing
+      playbook: playbooks/testing.md
+
+    - id: deployment
+      name: Deployment
+      playbook: playbooks/deployment.md
+
+    - id: maintenance
+      name: Maintenance
+      playbook: playbooks/maintenance.md
+
+    - id: documentation
+      name: Documentation
+      playbook: playbooks/documentation.md
+
+    - id: review
+      name: Review
+      playbook: playbooks/review.md
+
+execution:
+  sequential: true
+  review_required: true
+  traceability_required: true
+
+validation:
+  fail_on_missing_playbook: true
+  require_phase_completion: true

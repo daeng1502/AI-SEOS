@@ -1,0 +1,70 @@
+version: "1.0.0"
+
+repository:
+  id: ai-seos
+  name: AI Software Engineering Operating System
+  status: stable
+
+architecture:
+  constitution:
+    enabled: true
+
+  knowledge_system:
+    enabled: true
+
+  operating_system:
+    enabled: true
+
+  engineering_intelligence:
+    enabled: true
+
+  examples:
+    enabled: true
+
+  outputs:
+    enabled: true
+
+integrations:
+  antigravity:
+    supported: true
+
+  nine_router:
+    supported: true
+
+configuration:
+
+  standards:
+    source: standards/
+
+  templates:
+    source: templates/
+
+  schemas:
+    source: schemas/
+
+  playbooks:
+    source: playbooks/
+
+  quality:
+    source: quality/
+
+  lifecycle:
+    source: lifecycle/
+
+  registry:
+    source: registry/
+
+  outputs:
+    source: outputs/
+
+documentation:
+  source: docs/
+
+metadata:
+  source: meta/
+
+assets:
+  source: assets/
+
+examples:
+  source: examples/

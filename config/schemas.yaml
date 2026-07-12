@@ -1,0 +1,36 @@
+version: "1.0.0"
+
+schemas:
+
+  project:
+    file: schemas/project.schema.yaml
+    required: true
+
+  knowledge:
+    file: schemas/knowledge.schema.yaml
+    required: true
+
+  artifact:
+    file: schemas/artifact.schema.yaml
+    required: true
+
+  workflow:
+    file: schemas/workflow.schema.yaml
+    required: true
+
+  role:
+    file: schemas/role.schema.yaml
+    required: true
+
+  skill:
+    file: schemas/skill.schema.yaml
+    required: true
+
+  context:
+    file: schemas/context.schema.yaml
+    required: true
+
+validation:
+  strict: true
+  allow_additional_fields: false
+  require_version: true
