@@ -61,6 +61,7 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang arsitektur perangkat
 - Arsitektur mendukung scalability.
 - Arsitektur mendukung maintainability.
 - Arsitektur dapat ditelusuri ke Requirement.
+- **Kepatuhan Asumsi Nihil**: Seluruh keputusan arsitektur (ADR) dan dokumen arsitektur (SAD) tidak memuat batasan teknis atau infrastruktur di luar apa yang didefinisikan dalam `project-knowledge.md` (Sesuai `[RULE-HITL-005]`).
 
 ---
 
@@ -97,3 +98,4 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang arsitektur perangkat
 |----------|-------------|
 | 1.0 | Initial Software Architecture Playbook |
 | 1.1 | Menambahkan referensi sad-template.md dan adr-template.md |
+| 1.2 | Standardisasi aturan Kepatuhan Asumsi Nihil (RULE-HITL-005) pada checklist arsitektur |

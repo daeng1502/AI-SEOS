@@ -1,6 +1,6 @@
 # Human-in-the-Loop (HITL) Standard
 
-Version: 1.0
+Version: 1.1
 Status: Final
 
 ---
@@ -38,6 +38,15 @@ AI Agent **wajib menghentikan pekerjaan** dan berdiskusi dengan manusia apabila 
 3. **Pilihan Arsitektur/Teknis Kritis (Trade-offs)**: Pilihan antara teknologi atau pola desain yang memiliki kelebihan dan kekurangan yang berimbang (misal: memilih SQL vs NoSQL).
 4. **Kegagalan Infrastruktur Kritis (Blockers)**: Terjadi masalah teknis di luar kendali AI (misal: API pihak ketiga tidak merespon, server tidak bisa diakses).
 5. **Perubahan Scope Tengah Jalan (Change Request)**: Manusia meminta fitur baru yang secara signifikan memengaruhi rancangan arsitektur atau rencana proyek yang sudah disetujui.
+6. **Ketiadaan Informasi Proses Bisnis (Strict Ignorance)**: Terjadi kekosongan atau ketidakjelasan informasi mengenai mekanisme proses bisnis manual (As-Is). AI dilarang menebak/mengasumsikan detailnya menggunakan pengetahuan umum bawaan, melainkan wajib berhenti untuk meminta penegasan atau membiarkannya tidak terdefinisi sesuai kenyataan lapangan.
+
+---
+
+# [RULE-HITL-005] Prinsip Asumsi Nihil (Strict Ignorance Constraint)
+
+AI Agent terikat oleh kewajiban kepatuhan mutlak terhadap batasan informasi tertulis:
+- **Dilarang Menambah Asumsi**: AI Agent dilarang keras menambahkan langkah aktivitas, aktor, media komunikasi (seperti jenis aplikasi chat), dokumen, atau mekanisme transaksi yang tidak terdokumentasi di dalam `project-knowledge.md`.
+- **Halt atau Biarkan Kosong**: Jika menemukan celah informasi, AI Agent wajib menyatakannya secara jujur sebagai "tidak terdokumentasi/informal" atau melakukan *Halt* untuk bertanya, bukan berspekulasi menggunakan basis pengetahuan eksternal LLM.
 
 ---
 
@@ -80,3 +89,4 @@ Setiap pertanyaan yang diajukan AI kepada manusia wajib mematuhi aturan berikut:
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Human-in-the-Loop Standard |
+| 1.1 | Penambahan [RULE-HITL-005] Prinsip Asumsi Nihil (Strict Ignorance Constraint) |

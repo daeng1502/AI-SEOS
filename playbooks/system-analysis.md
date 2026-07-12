@@ -64,6 +64,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 - Activity Diagram sesuai proses bisnis.
 - Sequence Diagram sesuai Use Case.
 - Class Diagram konsisten dengan Domain Model.
+- **Kepatuhan Asumsi Nihil**: Seluruh model analisis dan proses bisnis (BPMN) tidak memuat detail informal atau spekulatif yang tidak tercantum di `project-knowledge.md` (Sesuai `[RULE-HITL-005]`).
 
 ---
 
@@ -102,3 +103,4 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 | 1.0 | Initial System Analysis Playbook |
 | 1.1 | Integrasi BPMN ke dalam Output, Langkah Eksekusi, dan Deliverables |
 | 1.2 | Standardisasi pemisahan proses bisnis As-Is/To-Be dan penulisan Gap Analysis pada pemodelan BPMN |
+| 1.3 | Standardisasi aturan Kepatuhan Asumsi Nihil (RULE-HITL-005) pada checklist analisis |
