@@ -84,6 +84,8 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang arsitektur perangkat
 # References
 
 - software-architecture.md (Standard)
+- sad-template.md
+- adr-template.md
 - system-analysis.md
 - DOMAIN_MODEL.md
 
@@ -94,3 +96,4 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang arsitektur perangkat
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Software Architecture Playbook |
+| 1.1 | Menambahkan referensi sad-template.md dan adr-template.md |

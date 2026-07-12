@@ -86,8 +86,8 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang antarmuka dan pengal
 
 ---
 
-# References
-
+- ui-ux-standard.md (Standard)
+- ui-ux-template.md (Template)
 - system-analysis.md
 - software-architecture.md
 
@@ -98,3 +98,4 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang antarmuka dan pengal
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial UI/UX Design Playbook |
+| 1.1 | Menambahkan referensi ui-ux-standard.md dan ui-ux-template.md |

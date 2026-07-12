@@ -82,7 +82,7 @@ Playbook ini mendefinisikan langkah-langkah pelaksanaan pengujian perangkat luna
 
 - testing-standard.md
 - test-case-template.md
-- acceptance-criteria.md
+- quality/acceptance-criteria.md
 
 ---
 
@@ -91,3 +91,4 @@ Playbook ini mendefinisikan langkah-langkah pelaksanaan pengujian perangkat luna
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Testing Playbook |
+| 1.1 | Perbaikan broken reference ke quality/acceptance-criteria.md |

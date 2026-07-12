@@ -84,7 +84,7 @@ Playbook ini mendefinisikan langkah-langkah untuk memvalidasi Requirement agar l
 
 - requirement-analysis.md (Playbook)
 - requirement-analysis.md (Standard)
-- validation-rules.md
+- quality/validation-rules.md
 
 ---
 
@@ -93,3 +93,4 @@ Playbook ini mendefinisikan langkah-langkah untuk memvalidasi Requirement agar l
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Requirement Validation Playbook |
+| 1.1 | Perbaikan broken reference ke quality/validation-rules.md |

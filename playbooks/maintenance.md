@@ -85,6 +85,7 @@ Playbook ini mendefinisikan langkah-langkah pemeliharaan perangkat lunak setelah
 
 # References
 
+- maintenance-standard.md (Standard)
 - change-management.md
 - versioning.md
 - testing.md
@@ -96,3 +97,4 @@ Playbook ini mendefinisikan langkah-langkah pemeliharaan perangkat lunak setelah
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Maintenance Playbook |
+| 1.1 | Menambahkan referensi maintenance-standard.md |

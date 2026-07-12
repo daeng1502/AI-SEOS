@@ -59,13 +59,19 @@ Describe the background of the project.
 
 # Engineering Phases
 
+- Project Initiation
+- Knowledge Acquisition
 - Requirement Analysis
-- System Design
-- Database Design
-- UI/UX Design
-- Development
+- Requirement Validation
+- System Analysis
+- Solution Design (Software Architecture, Database Design, UI/UX Design)
+- Artifact Generation (Development)
 - Testing
+- Review
+- Revision
+- Approval
 - Deployment
+- Completion
 
 ---
 

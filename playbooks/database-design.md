@@ -83,6 +83,7 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang basis data berdasark
 # References
 
 - database-design.md (Standard)
+- erd-template.md (Template)
 - software-architecture.md
 - system-analysis.md
 
@@ -93,3 +94,4 @@ Playbook ini mendefinisikan langkah-langkah untuk merancang basis data berdasark
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Database Design Playbook |
+| 1.1 | Menambahkan referensi erd-template.md |

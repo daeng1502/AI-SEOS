@@ -69,6 +69,7 @@ Playbook ini mendefinisikan langkah-langkah untuk memulai sebuah Project menggun
 
 # References
 
+- project-discovery-standard.md (Standard)
 - PROJECTS.md
 - WORKFLOW.md
 - KNOWLEDGE.md
@@ -80,3 +81,4 @@ Playbook ini mendefinisikan langkah-langkah untuk memulai sebuah Project menggun
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Project Initiation Playbook |
+| 1.1 | Menambahkan referensi project-discovery-standard.md |

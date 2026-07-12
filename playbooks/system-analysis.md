@@ -32,6 +32,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 # Outputs
 
 - Use Case Model
+- BPMN (Business Process Model and Notation)
 - Activity Diagram
 - Sequence Diagram
 - Class Diagram
@@ -45,12 +46,13 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 2. Identifikasi Actor.
 3. Identifikasi Use Case.
 4. Identifikasi Business Process.
-5. Susun Activity Diagram.
-6. Susun Sequence Diagram.
-7. Identifikasi Entity dan Object.
-8. Susun Class Diagram.
-9. Verifikasi konsistensi antar model.
-10. Dokumentasikan hasil analisis.
+5. Susun diagram proses bisnis menggunakan BPMN.
+6. Susun Activity Diagram.
+7. Susun Sequence Diagram.
+8. Identifikasi Entity dan Object.
+9. Susun Class Diagram.
+10. Verifikasi konsistensi antar model.
+11. Dokumentasikan hasil analisis.
 
 ---
 
@@ -58,6 +60,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 
 - Seluruh Actor telah teridentifikasi.
 - Seluruh Use Case berasal dari Requirement.
+- BPMN sesuai dengan proses bisnis aktual dan usulan.
 - Activity Diagram sesuai proses bisnis.
 - Sequence Diagram sesuai Use Case.
 - Class Diagram konsisten dengan Domain Model.
@@ -66,7 +69,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 
 # Completion Criteria
 
-- Seluruh model sistem selesai.
+- Seluruh model sistem dan proses bisnis (BPMN) selesai.
 - Tidak terdapat konflik antar diagram.
 - Seluruh model dapat ditelusuri ke Requirement.
 
@@ -75,6 +78,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 # Deliverables
 
 - Use Case Diagram
+- BPMN Document
 - Activity Diagram
 - Sequence Diagram
 - Class Diagram
@@ -86,6 +90,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 
 - requirement-validation.md
 - uml-modeling.md
+- bpmn-template.md
 - DOMAIN_MODEL.md
 
 ---
@@ -95,3 +100,4 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial System Analysis Playbook |
+| 1.1 | Integrasi BPMN ke dalam Output, Langkah Eksekusi, dan Deliverables |

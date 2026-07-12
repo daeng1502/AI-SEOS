@@ -81,8 +81,8 @@ Playbook ini mendefinisikan langkah-langkah deployment perangkat lunak agar pros
 
 ---
 
-# References
-
+- deployment-standard.md (Standard)
+- deployment-plan-template.md (Template)
 - software-architecture.md
 - testing.md
 - change-management.md
@@ -94,3 +94,4 @@ Playbook ini mendefinisikan langkah-langkah deployment perangkat lunak agar pros
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Deployment Playbook |
+| 1.1 | Menambahkan referensi deployment-standard.md dan deployment-plan-template.md |

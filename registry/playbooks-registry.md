@@ -17,3 +17,4 @@
 | maintenance | Maintenance process |
 | documentation | Documentation process |
 | review | Review process |
+| human-interaction | Human-in-the-Loop collaboration and clarification process |

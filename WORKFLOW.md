@@ -29,12 +29,15 @@ Workflow memastikan setiap aktivitas dilakukan secara sistematis, konsisten, dan
 2. Knowledge Acquisition
 3. Requirement Analysis
 4. Requirement Validation
-5. Solution Design
-6. Artifact Generation
-7. Review
-8. Revision
-9. Approval
-10. Completion
+5. System Analysis
+6. Solution Design
+7. Artifact Generation
+8. Testing
+9. Review
+10. Revision
+11. Approval
+12. Deployment
+13. Completion
 
 ---
 
@@ -75,3 +78,4 @@ Workflow hanya mendefinisikan proses software engineering.
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Workflow |
+| 1.1 | Menambahkan tahapan System Analysis, Testing, dan Deployment ke dalam alur kerja utama |
