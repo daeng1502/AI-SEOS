@@ -1,6 +1,6 @@
 # Business Process Model and Notation (BPMN)
 
-Version: 1.0
+Version: 2.0
 
 ---
 
@@ -17,87 +17,115 @@ Version: 1.0
 
 ---
 
-# 1. Process Overview
+# PART I: AS-IS BUSINESS PROCESS (Proses Bisnis Berjalan)
 
-## Purpose
+## 1. Process Overview (As-Is)
 
+### Purpose
 -
 
-## Scope
-
+### Scope
 -
 
-## Trigger
-
+### Trigger
 -
 
-## End Condition
-
+### End Condition
 -
 
----
-
-# 2. Participants
+## 2. Participants (As-Is)
 
 | Participant | Role | Description |
 |-------------|------|-------------|
 | | | |
 
----
-
-# 3. Process Flow
+## 3. Process Flow (As-Is)
 
 | No | Activity | Responsible Role | Description |
 |----|----------|------------------|-------------|
 | 1 | | | |
 
----
+## 4. BPMN Elements (As-Is)
 
-# 4. Business Rules
+### Events
+-
 
+### Activities
+-
+
+### Gateways
 -
 
 ---
 
-# 5. BPMN Elements
+# PART II: TO-BE BUSINESS PROCESS (Proses Bisnis Diusulkan)
 
-## Events
+## 1. Process Overview (To-Be)
 
+### Purpose
 -
 
-## Activities
-
+### Scope
 -
 
-## Gateways
-
+### Trigger
 -
 
-## Data Objects
+### End Condition
+-
 
+## 2. Participants (To-Be)
+
+| Participant | Role | Description |
+|-------------|------|-------------|
+| | | |
+
+## 3. Process Flow (To-Be)
+
+| No | Activity | Responsible Role | Description |
+|----|----------|------------------|-------------|
+| 1 | | | |
+
+## 4. BPMN Elements (To-Be)
+
+### Events
+-
+
+### Activities
+-
+
+### Gateways
+-
+
+### Data Objects
 -
 
 ---
 
-# 6. Exceptions
+# PART III: GAP ANALYSIS (As-Is vs To-Be)
 
+| Proses | As-Is (Manual) | To-Be (Sistem) | Dampak & Efisiensi |
+|---|---|---|---|
+| | | | |
+
+---
+
+# 5. Exceptions
 -
 
 ---
 
-# 7. Inputs
-
+# 6. Inputs
 -
 
 ---
 
-# 8. Outputs
-
+# 7. Outputs
 -
 
 ---
 
-# 9. Related Requirements
+# 8. Related Requirements
 
 | Requirement ID | Description |
 |----------------|-------------|
@@ -105,8 +133,7 @@ Version: 1.0
 
 ---
 
-# 10. Notes
-
+# 9. Notes
 -
 
 ---
@@ -116,3 +143,4 @@ Version: 1.0
 | Version | Description |
 |----------|-------------|
 | 1.0 | Initial Document |
+| 2.0 | Pembagian proses menjadi As-Is, To-Be, dan penambahan Gap Analysis |

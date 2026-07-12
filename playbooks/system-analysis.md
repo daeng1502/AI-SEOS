@@ -46,7 +46,7 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 2. Identifikasi Actor.
 3. Identifikasi Use Case.
 4. Identifikasi Business Process.
-5. Susun diagram proses bisnis menggunakan BPMN.
+5. Susun diagram proses bisnis (BPMN) dengan membagi menjadi proses berjalan (As-Is), proses usulan (To-Be), serta menyusun tabel analisis kesenjangan (Gap Analysis).
 6. Susun Activity Diagram.
 7. Susun Sequence Diagram.
 8. Identifikasi Entity dan Object.
@@ -101,3 +101,4 @@ Playbook ini mendefinisikan langkah-langkah untuk menganalisis sistem berdasarka
 |----------|-------------|
 | 1.0 | Initial System Analysis Playbook |
 | 1.1 | Integrasi BPMN ke dalam Output, Langkah Eksekusi, dan Deliverables |
+| 1.2 | Standardisasi pemisahan proses bisnis As-Is/To-Be dan penulisan Gap Analysis pada pemodelan BPMN |
