@@ -1,6 +1,6 @@
 # Human-in-the-Loop (HITL) Standard
 
-Version: 1.1
+Version: 1.3
 Status: Final
 
 ---
@@ -50,6 +50,22 @@ AI Agent terikat oleh kewajiban kepatuhan mutlak terhadap batasan informasi tert
 
 ---
 
+# [RULE-HITL-002] Rekonsiliasi Batas Fase (Phase Gate Reconciliation)
+
+AI Agent wajib melakukan prosedur penutupan fase kerja secara transparan dan terstruktur sebelum melangkah ke perencanaan fase baru untuk mencegah celah proses (process slip):
+- **Penyajian Tabel Rekonsiliasi**: Sebelum mengajukan perpindahan fase/tahap kerja baru kepada pengguna, AI Agent wajib menyajikan Tabel Rekonsiliasi Cakupan di chat. Tabel ini harus mencocokkan jumlah entitas/persyaratan di dokumen dasar (seperti SRS) dengan hasil pengerjaan nyata di repositori lokal.
+- **Persetujuan Handshake Eksplisit**: AI Agent dilarang keras merancang atau mengajukan Implementation Plan untuk fase baru sebelum mendapatkan konfirmasi persetujuan tertulis dari pengguna berupa pernyataan bahwa fase saat ini telah selesai sepenuhnya.
+
+---
+
+# [RULE-HITL-003] Isolasi Diskusi Multi-Item (Isolated Multi-Item Discussion)
+
+AI Agent wajib melakukan diskusi secara berurutan dan terisolasi ketika membahas banyak item/tabel/fitur sekaligus untuk mencegah terlewatnya detail penting:
+- **Satu Putaran Satu Item**: AI Agent dilarang mengajukan pertanyaan atau opsi perubahan untuk lebih dari satu entitas/tabel dalam satu putaran percakapan (one turn), kecuali jika pengguna secara eksplisit meminta pembahasan kolektif.
+- **Pencegahan Bias Efisiensi**: AI Agent dilarang mempercepat diskusi dengan merangkum atau melompati daftar urutan demi efisiensi waktu, karena ketelitian pemeriksaan manusia jauh lebih diprioritaskan daripada kecepatan pengerjaan AI.
+
+---
+
 # Tingkat Urgensi Pertanyaan
 
 Setiap pengajuan pertanyaan oleh AI wajib menyertakan tingkat urgensi:
@@ -90,3 +106,5 @@ Setiap pertanyaan yang diajukan AI kepada manusia wajib mematuhi aturan berikut:
 |----------|-------------|
 | 1.0 | Initial Human-in-the-Loop Standard |
 | 1.1 | Penambahan [RULE-HITL-001] Prinsip Asumsi Nihil (Strict Ignorance Constraint) |
+| 1.2 | Penambahan [RULE-HITL-002] Rekonsiliasi Batas Fase (Phase Gate Reconciliation) |
+| 1.3 | Penambahan [RULE-HITL-003] Isolasi Diskusi Multi-Item (Isolated Multi-Item Discussion) |
