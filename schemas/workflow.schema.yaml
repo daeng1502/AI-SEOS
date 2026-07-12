@@ -1,0 +1,29 @@
+workflow:
+  id: string
+  name: string
+  description: string
+
+  phases:
+    - id: string
+      name: string
+      sequence: integer
+      description: string
+
+  inputs:
+    - string
+
+  outputs:
+    - string
+
+  related_roles:
+    - string
+
+  related_tasks:
+    - string
+
+  related_artifacts:
+    - string
+
+  status: string
+
+  version: string

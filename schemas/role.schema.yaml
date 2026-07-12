@@ -1,0 +1,26 @@
+role:
+  id: string
+  name: string
+  description: string
+
+  responsibilities:
+    - string
+
+  required_skills:
+    - string
+
+  assigned_tasks:
+    - string
+
+  produced_artifacts:
+    - string
+
+  inputs:
+    - string
+
+  outputs:
+    - string
+
+  status: string
+
+  version: string

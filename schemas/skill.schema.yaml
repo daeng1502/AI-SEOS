@@ -1,0 +1,24 @@
+skill:
+  id: string
+  name: string
+  category: string
+  description: string
+
+  related_roles:
+    - string
+
+  related_tasks:
+    - string
+
+  produced_artifacts:
+    - string
+
+  inputs:
+    - string
+
+  outputs:
+    - string
+
+  status: string
+
+  version: string

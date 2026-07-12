@@ -1,0 +1,29 @@
+context:
+  id: string
+  name: string
+  description: string
+
+  project_id: string
+
+  knowledge:
+    - string
+
+  related_workflow:
+    - string
+
+  related_tasks:
+    - string
+
+  related_roles:
+    - string
+
+  related_artifacts:
+    - string
+
+  status: string
+
+  version: string
+
+  created_at: datetime
+
+  updated_at: datetime

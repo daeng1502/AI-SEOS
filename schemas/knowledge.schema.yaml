@@ -1,0 +1,22 @@
+knowledge:
+  id: string
+  title: string
+  category: string
+  source: string
+  description: string
+
+  related_project: string
+
+  references:
+    - string
+
+  tags:
+    - string
+
+  status: string
+
+  version: string
+
+  created_at: datetime
+
+  updated_at: datetime

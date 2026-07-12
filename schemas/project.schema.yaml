@@ -1,0 +1,38 @@
+project:
+  id: string
+  name: string
+  description: string
+  business_domain: string
+
+  stakeholders:
+    - id: string
+      name: string
+      role: string
+
+  objectives:
+    - string
+
+  scope:
+    in_scope:
+      - string
+    out_of_scope:
+      - string
+
+  constraints:
+    - string
+
+  assumptions:
+    - string
+
+  knowledge_sources:
+    - string
+
+  artifacts:
+    - string
+
+  workflow:
+    - string
+
+  status: string
+
+  version: string
