@@ -1,2 +1,3 @@
 # Ignore project outputs (SILATRASA local files)
 outputs/silatrasa/
+outputs/apriori/
