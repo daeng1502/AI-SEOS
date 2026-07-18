@@ -19,3 +19,7 @@ Jika pengguna meminta Anda untuk meninjau atau menambahkan ide pengembangan masa
 
 ## 4. Aturan Koding Khusus Proyek (Contoh: SILATRASA)
 *(Aturan spesifik untuk proyek SILATRASA seperti keharusan menggunakan SQLite In-Memory, Http::fake(), definisi tabel `feedbacks`, dan struktur `outputs/silatrasa/silatrasa-app/` kini diisolasi sepenuhnya di foldernya masing-masing. Agen AI dilarang memberlakukan aturan SILATRASA pada proyek lain dalam repositori ini).*
+
+## 5. Larangan Modifikasi Sepihak Pasca-Sukses (Pair Programming Rule)
+- **Komitmen Pasca-Sukses**: Setelah pengguna (Human) menyatakan bahwa pengujian manual atau simulasi telah sukses (misalnya dengan kalimat `"sudah berhasil"`, `"berhasil"`, `"sukses"`), Anda dilarang keras melakukan modifikasi file, pembersihan log (seperti menghapus `console.log` debug, `historyLogger.logEvent` debug), refactoring, atau pemformatan ulang kode secara sepihak.
+- **Konfirmasi Pembersihan**: Jika Anda merasa kode perlu dirapikan dari log debug sementara pasca-sukses, Anda **WAJIB** meminta izin secara eksplisit kepada pengguna terlebih dahulu sebelum melakukan penyuntingan file.
